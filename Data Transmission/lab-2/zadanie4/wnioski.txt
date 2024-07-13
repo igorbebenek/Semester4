@@ -1,0 +1,33 @@
+Dla Częstotliwości 4000 HZ, próbek 10000 : 
+
+
+    | DFT (ms)     |  FFT (ms) |
+X   |    5420      |   14      | 
+--------------------------------       
+Y   |    5389      |    4      | 
+--------------------------------
+Z   |     5423     |    4      |
+--------------------------------
+V   |     5640     |    4      |
+
+Razem:      16452  |    12     |
+
+
+
+
+Dla częstotliwości 12000 HZ i 20000 próbek :
+
+    | DFT (ms)     |  FFT (ms) |
+X   |    22129     |   21      | 
+--------------------------------        
+Y   |    22051      |   10      | 
+--------------------------------
+Z   |     22136     |   9       |
+--------------------------------
+V   |     21969     |   11      |
+
+Razem:     88285    |  51       |
+
+Na podstawie przeprowadzonych pomiarów dla naszych sygnałów możemy stwierdzić, że różnica w wykonaniu między DFT i FFT jest dramatyczna na korzyść FFT. Można też stwierdzić, że FFT radzi sobie lepiej z dużymi zbiorami danych. Złożoność obliczeniowa DFT to O(N^2) czyli czas rośnie kwadratowo wraz ze wzrostem liczby próbek. Złożoność dla algorytmu FFT to O(nlogn)czyli rośnie logarytmicznie-lionowo i jest to jedna z najlepszych złożoności 
+
+

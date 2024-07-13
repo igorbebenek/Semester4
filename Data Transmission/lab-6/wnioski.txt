@@ -1,0 +1,14 @@
+Kodowanie Hamming (7,4) i Hamming (15,11) dobrze wykrywają i poprawiają pojedyncze błędy, co potwierdziły nasze testy. Kod Hamming (7,4) jest łatwiejszy do zaimplementowania i działa dobrze przy mniejszych danych, natomiast Hamming (15,11) zapewnia lepszą ochronę przed błędami, ale jest bardziej skomplikowany. Hamming (7,4) nadaje się do prostszych systemów komunikacyjnych, a Hamming (15,11) sprawdza się w bardziej zaawansowanych zastosowaniach, jak transmisje satelitarne. 
+
+(7,4)  Wartość orginalna : 1, 1, 0, 1
+(7,4)  sygnał dobrze odebrany = 1, 0, 1, 0, 1, 0, 1
+(7,4)  sygnał źle odebrany = 1, 0, 0, 0, 1, 0, 1
+Niezgodność w bicie x3
+Bit po zmianie to: 1, 0, 1, 0, 1, 0, 1
+(7,4)  Odkodowane bity = 1, 1, 0, 1
+(15,11) Wartość orginalna : 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0
+(15,11) Zakodowany: 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1
+(15,11) Zły sygnał: 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1
+Niezgodność w bicie 5
+Bit po zmianie to: 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1
+(15,11) Poprawiony sygnał 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0

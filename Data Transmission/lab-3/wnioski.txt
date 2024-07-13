@@ -1,0 +1,31 @@
+Wyniki wypisane przez konsolę: 
+za 0.5 dB 3: 0
+za 0.5 dB 6: 0
+za 0.5 dB 12: 0
+za 7 dB 3: 4
+za 7 dB 6: 4
+za 7 dB 12: 4
+za 21 dB 3: 4
+za 21 dB 6: 4
+za 21 dB 12: 4
+zp 0.5 dB 3: 0
+zp 0.5 dB 6: 0
+zp 0.5 dB 12: 0
+zp 0.5pi dB 3: 0
+zp 0.5pi dB 6: 8
+zp 0.5pi dB 12: 8
+zp 2pi dB 3: 24
+zp 2pi dB 6: 24
+zp 2pi dB 12: 24
+zf 0.5 dB 3: 0
+zf 0.5 dB 6: 0
+zf 0.5 dB 12: 0
+zf 0.5pi dB 3: 0
+zf 0.5pi dB 6: 0
+zf 0.5pi dB 12: 0
+zf 2pi dB 3: 8
+zf 2pi dB 6: 8
+zf 2pi dB 12: 16
+
+Wnioski: 
+Wyniki obliczeń pokazują, że zmiana intensywności modulacji ma wpływ na szerokość pasma sygnału. Modulacja fazy i częstotliwości przy większych wartościach głębokości modulacji skutkuje rozprzestrzenianiem się energii sygnału na szersze pasmo częstotliwości. Zwiękzsenie dB oznacza wiekszą różnicę między maksymalną amplitudą sygnału a poziomem odcięcia. W rezultacie pasmo staje się szersze. 

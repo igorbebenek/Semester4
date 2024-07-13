@@ -1,0 +1,8 @@
+Obserwacje:
+W ASK szerokość pasma dla 3dB 6 dB i 12 dB wynosi 0 Hz. 
+W PSK szerokość pasdma dla 3 dB wynosi 2Hz dla 6dB 2.2 Hz a dla 12 dB 4.4 Hz. Wskazuje to na zwiększenie szerokości pasma wraz ze wzrostem tłumienia. PSK jest wrażliwe na zmianę fazy.
+W FSK szerokość pasma dla 3 dB i 6dB jest taka sama i wynosi 2 Hz, a dla 12 dB wynosi 4 Hz. Może to sugerować, że FSK wykazuje szersze pasmo dla większych tłumień. Może to być korzystne w środowiskach z dużą ilością zakłóceń.
+
+PSK i FSK wykazują lepsze właściwości spektralne niż ASK w rozprzestrzenianiu energii na szerokość pasma, co może się przyczynić do lepszej odporności na zakłócenia.  
+
+PSK znajduje zastosowanie w systemach komunikacji, gdzie jest wymagana wysoka efektywność spekralna jak np. WiFI. FSK może być odpowiednie gdy stabilność sygnału w obliczu zakłóceń jest istotna np. w komunikacji radiowej i mobilnej. 
