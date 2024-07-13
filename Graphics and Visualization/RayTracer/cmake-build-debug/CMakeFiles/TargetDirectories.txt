@@ -1,0 +1,3 @@
+C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/cmake-build-debug/CMakeFiles/rt.dir
+C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/cmake-build-debug/CMakeFiles/rebuild_cache.dir

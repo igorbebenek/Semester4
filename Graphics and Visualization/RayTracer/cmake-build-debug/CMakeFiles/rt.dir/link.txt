@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\rt.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\ar.exe qc CMakeFiles\rt.dir/objects.a @CMakeFiles\rt.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\rt.dir/objects.a -Wl,--no-whole-archive -o C:\Users\igorb\GiW_2024_223B_Bebenek_Igor\ray_tracer\bin\rt.exe -Wl,--out-implib,librt.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\rt.dir\linkLibs.rsp

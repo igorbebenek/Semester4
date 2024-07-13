@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="rt"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rt">
+				<Option output="C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/bin/rt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/3rd/opencv/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rt"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rt/fast">
+				<Option output="C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/bin/rt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/3rd/opencv/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rt/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/src/CImage.cpp">
+			<Option target="rt"/>
+		</Unit>
+		<Unit filename="C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/src/CImage.hpp">
+			<Option target="rt"/>
+		</Unit>
+		<Unit filename="C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/src/CObject.cpp">
+			<Option target="rt"/>
+		</Unit>
+		<Unit filename="C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/src/CObject.hpp">
+			<Option target="rt"/>
+		</Unit>
+		<Unit filename="C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/src/CRay.cpp">
+			<Option target="rt"/>
+		</Unit>
+		<Unit filename="C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/src/CRay.hpp">
+			<Option target="rt"/>
+		</Unit>
+		<Unit filename="C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/src/CRayTrace.cpp">
+			<Option target="rt"/>
+		</Unit>
+		<Unit filename="C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/src/CRayTrace.hpp">
+			<Option target="rt"/>
+		</Unit>
+		<Unit filename="C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/src/CScene.cpp">
+			<Option target="rt"/>
+		</Unit>
+		<Unit filename="C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/src/CScene.hpp">
+			<Option target="rt"/>
+		</Unit>
+		<Unit filename="C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/src/main.cpp">
+			<Option target="rt"/>
+		</Unit>
+		<Unit filename="C:/Users/igorb/GiW_2024_223B_Bebenek_Igor/ray_tracer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
